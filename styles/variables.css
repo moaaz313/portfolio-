@@ -1,0 +1,25 @@
+:root {
+  /* Dark Mode */
+  --bg-color: linear-gradient(135deg, #0A192F, #1E3A5F);
+  --text-color: #E6F0FA;
+  --card-bg: rgba(255, 255, 255, 0.1);
+  --card-border: rgba(255, 255, 255, 0.2);
+  --shadow-color: rgba(0, 0, 0, 0.5);
+  --accent-color: #00A3E0;
+  --secondary-color: #64D3FF;
+  --link-hover: #64D3FF;
+  --transition-ease: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}
+
+body.light-mode {
+  /* Light Mode */
+  --bg-color: linear-gradient(135deg, #E6F0FA, #D1E3F6);
+  --text-color: #0A192F;
+  --card-bg: rgba(255, 255, 255, 0.95);
+  --card-border: rgba(0, 0, 0, 0.05);
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --accent-color: #0077B6;
+  --secondary-color: #00A3E0;
+  --link-hover: #00A3E0;
+}
